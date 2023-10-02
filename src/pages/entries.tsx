@@ -1,12 +1,12 @@
 import React from "react"
-import EntryTextBox from "../components/entries/entry-text-box"
+import Entries from "@/page-components/entries/entries"
 
-const Entries = () => {
+const UserEntries = () => {
   return (
     <div>
-      <EntryTextBox />
+      <Entries />
     </div>
   )
 }
 
-export default Entries
+export default UserEntries
